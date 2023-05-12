@@ -1,0 +1,24 @@
+<div class="row py-5">
+    <div class="col-md-4 d-flex align-items-center justify-content-center">
+        <div>
+            <div class="brdr w-25 mb-3"></div>
+            <h2>Trending <br> People <br> Right Now</h2>
+            <p class="text-muted">Most Watched People By Week</p>
+            <div class="brdr w-100 mt-3"></div>
+        </div>
+     
+    </div>
+    <div *ngFor="let item of trendingPeople" class="col-md-2">
+        <a [routerLink]="['/details',item.id,mediaType]">
+        <div class="my2 position-relative">
+            <img [src]="'https://image.tmdb.org/t/p/w500'+item.profile_path" class="w-100">
+            
+            <h3 class="h6 py-2">{{item.name}}</h3>
+        </div>
+    </a>
+    </div>
+   
+
+    
+
+</div>
