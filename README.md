@@ -1,4 +1,10 @@
-# App1
+# Movies Website
+It's a movies website to show the latest movies and information about actors.
+Technologies:
+HTML CSS Bootstarap
+API
+Angular
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
